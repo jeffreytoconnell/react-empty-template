@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { HelloWorld } from './components/app';
+import { HelloWorld2 } from './components/app';
 
 const App = () => {
     return (
@@ -24,7 +25,7 @@ ReactDOM.render(
 ReactDOM.render(
     <div>
     <App />
-    <HelloWorld />
+    <HelloWorld2 />
     </div>,
     document.getElementById('root2')
 );

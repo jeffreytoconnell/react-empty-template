@@ -9,3 +9,11 @@ export const HelloWorld = React.createClass({
     )
   }
 })
+
+export const HelloWorld2 = React.createClass({
+  render() {
+    return (
+      <h1>Hello World2</h1>
+    )
+  }
+})
