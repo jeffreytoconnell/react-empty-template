@@ -17,3 +17,11 @@ export const HelloWorld2 = React.createClass({
     )
   }
 })
+
+export function HelloWorldFunction(props) {
+  return (
+    <p>Hello World Function</p>
+  );
+}
+
+export default (HelloWorldFunction);  // REQUIRED FOR FUNCTION

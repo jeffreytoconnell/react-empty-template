@@ -5,6 +5,7 @@ import './index.css';
 
 import { HelloWorld } from './components/app';
 import { HelloWorld2 } from './components/app';
+import HelloWorldFunction from './components/app';
 
 const App = () => {
     return (
@@ -26,6 +27,7 @@ ReactDOM.render(
     <div>
     <App />
     <HelloWorld2 />
+    <HelloWorldFunction />
     </div>,
     document.getElementById('root2')
 );
