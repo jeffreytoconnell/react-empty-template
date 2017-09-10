@@ -1,12 +1,30 @@
 // INDEX.JS
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// import SomeClass from './compontents/SomeFile';
+import { HelloWorld } from './components/app';
+
+const App = () => {
+    return (
+        <h2 className="text-center">
+        Hello
+        </h2>
+    );
+};
 
 ReactDOM.render(
-    <SomeClass />,
+    <div>
+    <App />
+    <HelloWorld />
+    </div>,
     document.getElementById('root')
+);
+
+ReactDOM.render(
+    <div>
+    <App />
+    <HelloWorld />
+    </div>,
+    document.getElementById('root2')
 );
