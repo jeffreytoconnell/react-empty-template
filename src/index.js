@@ -7,7 +7,7 @@ import { HelloWorld } from './components/app';
 
 const App = () => {
     return (
-        <h2 className="text-center">
+        <h2>
         Hello
         </h2>
     );
